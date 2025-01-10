@@ -1,9 +1,9 @@
 # Movie Performance and Sentiment Analyzer
 
 ## Demo
-*Soon*
 
----
+https://github.com/user-attachments/assets/1731b985-6692-4d64-9aa9-2b7385d0a6a4
+
 
 ## About the Project
 
@@ -13,7 +13,6 @@ The goal is to explore how fan reactions correlate with financial success and an
 - How reactionary do fans become on social media during periods of under or overperformance?
 - Are fan sentiments aligned with actual success?
 
----
 
 ## Key Features
 
@@ -29,7 +28,6 @@ The goal is to explore how fan reactions correlate with financial success and an
    - A web application built with Plotly Dash allows users to explore data for different movie franchises.
    - Graphs show sentiment and performance metrics over time, providing insights into trends.
 
----
 
 ## How It Works
 
@@ -48,7 +46,6 @@ The goal is to explore how fan reactions correlate with financial success and an
    - Financial metrics are normalized using z-scores relative to the franchise's overall performance.
    - A sigmoid function compresses these values into a 0.00-1.00 scale, ensuring balance and smooth scaling.
 
----
 
 ## Technologies Used
 
@@ -59,11 +56,10 @@ The goal is to explore how fan reactions correlate with financial success and an
   - [YouTube Data API](https://developers.google.com/youtube/registering_an_application) for comments extraction.
 - **VADER**: Sentiment analysis tailored for social media data.
 
----
 
 ## How to Run the Project
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/movie-sentiment-analyzer.git
-   cd movie-sentiment-analyzer
+   git clone https://github.com/arshadsumarno/Movie-Performance-and-Sentiment-Analyzer.git
+   python .\app\app_dash.py
