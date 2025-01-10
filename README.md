@@ -1,7 +1,5 @@
 # Movie Performance and Sentiment Analyzer
 
-## Demo
-
 https://github.com/user-attachments/assets/431e89bd-a400-426a-a194-7c40f1b76fd8
 
 
