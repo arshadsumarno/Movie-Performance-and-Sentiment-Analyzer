@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+ 
+:root {
+    --space: 20px;
+}
+
+body {
+    font-family: Rubik;
+    background-color: #f0f2f5;
+    padding: var(--space);
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 35pt;
+}
+
+p {
+    color: black;
+    margin: 0px 0px 0px;
+}
+
+h3 {
+    color: black; 
+    margin: 0px 0px 0px;
+}
+
+img {
+    height: 280px;
+}
+
+iframe {
+    width: 410px;
+    height: 280px;
+}
+
+hr {
+    margin: 5px 0px 5px;
+}
+
+/* Styling for the graph container */
+#time-series-graph {
+    font-family: Inter;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 20px auto;
+    width: 1200px;
+    height: 600px;
+}
+
+/* Styling for the hover data box */
+#hover-data-box {
+    margin: 20px auto;
+    height: 600px;
+    width: 650px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#movie-text {
+    height: 50px;
+    margin: var(--space);
+}
+
+#release-date {
+    color: gray;
+    font-size: small;
+}
+
+#image-container {
+    display: flex;
+    flex-direction: row;
+    height: 280px;
+    justify-content: space-between;
+    margin: var(--space);
+}
+
+#score-container {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    margin: var(--space);
+}
+
+#metric-container {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+#metric-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+#metric-text {
+    font-size: medium;
+}
+
+#metric-text-value {
+    flex: 1;
+    font-size: 23px;
+}
+
+#icon {
+    height: 50px;
+}
+
+#stats {
+    height: 120px;
+    margin: var(--space);
+}
+
+#stats-container {
+    display: flex;
+    height: 50px;
+}
+
+#stats-container-half {
+    flex: 1;
+    height: 50px;
+}
+
+#comment-container {
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 5px;
+    height: 60px;
+}
